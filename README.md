@@ -1,9 +1,9 @@
 ﻿# Arduino-Dice
 
-Dice Roll with Music
+# Dice Roll with Music
 This is an Arduino project that simulates a dice roll with LEDs and plays a melody on a buzzer. The dice roll is triggered by an IR sensor.
 
-Code Explanation
+# Code Explanation
 The code is divided into three main parts:
 
 Melody Setup: This part of the code defines the notes of the melody that will be played on the buzzer. The melody and tempo are defined in the melody[] and tempo variables respectively.
@@ -12,7 +12,7 @@ Setup Function: This function runs once when the program starts. It sets the pin
 
 Loop Function: This function runs repeatedly after the setup function. It checks if the IR sensor has been triggered. If it has, it simulates a dice roll by randomly turning on and off the LEDs and playing a tone on the buzzer. After the dice roll, it turns off all the LEDs and the buzzer.
 
-Hardware Setup
+# Hardware Setup
 Connect the LEDs to digital pins 2, 3, 4, and 5 on the Arduino.
 Connect the IR sensor to digital pin 11.
 Connect the buzzer to digital pin 12.
